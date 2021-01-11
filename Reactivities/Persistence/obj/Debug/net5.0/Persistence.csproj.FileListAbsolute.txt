@@ -1,0 +1,15 @@
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/bin/Debug/net5.0/Persistence.deps.json
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/bin/Debug/net5.0/Persistence.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/bin/Debug/net5.0/ref/Persistence.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/bin/Debug/net5.0/Persistence.pdb
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/bin/Debug/net5.0/Domain.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/bin/Debug/net5.0/Domain.pdb
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/obj/Debug/net5.0/Persistence.csprojAssemblyReference.cache
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/obj/Debug/net5.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfoInputs.cache
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfo.cs
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/obj/Debug/net5.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/obj/Debug/net5.0/Persistence.csproj.CopyComplete
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/obj/Debug/net5.0/Persistence.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/obj/Debug/net5.0/ref/Persistence.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Persistence/obj/Debug/net5.0/Persistence.pdb

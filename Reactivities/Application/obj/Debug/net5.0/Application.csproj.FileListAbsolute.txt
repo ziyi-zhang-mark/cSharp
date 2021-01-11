@@ -1,0 +1,17 @@
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/bin/Debug/net5.0/Application.deps.json
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/bin/Debug/net5.0/Application.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/bin/Debug/net5.0/ref/Application.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/bin/Debug/net5.0/Application.pdb
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/bin/Debug/net5.0/Domain.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/bin/Debug/net5.0/Persistence.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/bin/Debug/net5.0/Domain.pdb
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/bin/Debug/net5.0/Persistence.pdb
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/obj/Debug/net5.0/Application.csprojAssemblyReference.cache
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/obj/Debug/net5.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/obj/Debug/net5.0/Application.AssemblyInfoInputs.cache
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/obj/Debug/net5.0/Application.AssemblyInfo.cs
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/obj/Debug/net5.0/Application.csproj.CopyComplete
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/obj/Debug/net5.0/Application.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/obj/Debug/net5.0/ref/Application.dll
+/Users/ziyizhang/Workplace/github/cSharp/Reactivities/Application/obj/Debug/net5.0/Application.pdb
