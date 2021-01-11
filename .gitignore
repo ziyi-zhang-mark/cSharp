@@ -1,1 +1,7 @@
-/Course Assets
+Course Assets
+appsettings.json
+obj
+bin
+.vscode
+.DS_Store
+*.db
