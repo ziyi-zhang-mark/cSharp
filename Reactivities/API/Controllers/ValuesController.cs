@@ -19,7 +19,7 @@ namespace API.Controllers
         // inject data context to the controller
         public ValuesController(DataContext context)
         {
-            this._context = context;
+            _context = context;
         }
 
         // GET api/values

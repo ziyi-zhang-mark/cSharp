@@ -14,6 +14,7 @@ namespace API
 {
     public class Program
     {
+        // entry of the application - Main function
         public static void Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
@@ -37,6 +38,7 @@ namespace API
             host.Run();
         }
 
+        // read configs and start a web server
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
