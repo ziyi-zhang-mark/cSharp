@@ -119,4 +119,12 @@ protected override void OnModelCreating(ModelBuilder builder)
 
 Read data from DB into controller - inject `DataContext` into `ValuesController`
 
-![](src/application_architecture.png)
+![](img_src/application_architecture.png)
+
+## Create Client Application
+
+```
+cd Reactivities/
+npx create-react-app client-app --use-npm --typescript
+cd client-app
+```
