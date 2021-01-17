@@ -121,10 +121,20 @@ Read data from DB into controller - inject `DataContext` into `ValuesController`
 
 ![](img_src/application_architecture.png)
 
-## Create Client Application
+## Create React Client Application
 
 ```
 cd Reactivities/
 npx create-react-app client-app --use-npm --typescript
 cd client-app
+```
+
+React class component, fetch data via API
+Install axios package to fetch data, add CORS support to the API
+Install Semantic UI
+
+```
+cd client-app/
+npm install axios
+npm install semantic-ui-react semantic-ui-css
 ```
