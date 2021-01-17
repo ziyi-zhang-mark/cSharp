@@ -66,7 +66,7 @@ e.g. localhost:5000/api/values/33
 
 ---
 
-## Create Domain Entities
+## Create Domain Entities and API
 
 Add 2 dependencies `Microsoft.EntityFrameworkCore`, `Microsoft.EntityFrameworkCore.Sqlite` and `Microsoft.EntityFrameworkCore.Design` to `Persistence` project.
 
@@ -138,3 +138,16 @@ cd client-app/
 npm install axios
 npm install semantic-ui-react semantic-ui-css
 ```
+
+## CRUD application CQRS + Mediator pattern
+
+Add Activity Entity in Domain - Activity.cs
+Add new DbSet<Activity> into DataContext.cs
+Create a new migration
+
+```
+cd Reactivities/
+dotnet ef migrations add "ActivityEntityAdded" -p Persistence/ -s API/
+```
+
+Add Seed data - Seed.cs
