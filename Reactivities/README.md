@@ -151,3 +151,9 @@ dotnet ef migrations add "ActivityEntityAdded" -p Persistence/ -s API/
 ```
 
 Add Seed data - Seed.cs
+
+GET /api/activities/
+Create List Activity Query handler in Application project & Add List activities in ActivitiesController in API project
+
+GET /api/activities/id
+Create Details Activity Query handler in Application project & Add list activity details in ActivitiesController in API project
