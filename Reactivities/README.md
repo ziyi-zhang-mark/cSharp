@@ -157,3 +157,7 @@ Create List Activity Query handler in Application project & Add List activities 
 
 GET /api/activities/id
 Create Details Activity Query handler in Application project & Add list activity details in ActivitiesController in API project
+
+POST /api/activities/
+PUT /api/activities/id
+DELETE /api/activities/id
