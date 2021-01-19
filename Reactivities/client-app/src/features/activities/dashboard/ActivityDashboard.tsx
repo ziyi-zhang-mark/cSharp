@@ -12,6 +12,9 @@ interface IProps {
   setSelectedActivity: (activity: IActivity | null) => void;
   editMode: boolean;
   setEditMode: (editMode: boolean) => void;
+  createActivity: (activity: IActivity) => void;
+  editActivity: (activity: IActivity) => void;
+  deleteActivity: (id: string) => void;
 }
 
 const ActivityDashboard: React.FC<IProps> = ({
@@ -21,6 +24,9 @@ const ActivityDashboard: React.FC<IProps> = ({
   setSelectedActivity,
   editMode,
   setEditMode,
+  createActivity,
+  editActivity,
+  deleteActivity,
 }) => {
   return (
     <Grid>
@@ -28,18 +34,28 @@ const ActivityDashboard: React.FC<IProps> = ({
         <ActivityList
           activities={activities}
           selectActivity={selectActivity}
+          deleteActivity={deleteActivity}
         ></ActivityList>
       </Grid.Column>
 
       <Grid.Column width={6}>
-        {selectedActivity && (
+        {selectedActivity && !editMode && (
           <ActivityDetails
             activity={selectedActivity}
             setEditMode={setEditMode}
             setSelectedActivity={setSelectedActivity}
           />
         )}
-        {editMode && <ActivityForm setEditMode={setEditMode} />}
+        {editMode && (
+          <ActivityForm
+            // another approach to re-render ActivityForm when props changes
+            // key={(selectedActivity && selectedActivity.id) || 0}
+            activity={selectedActivity}
+            setEditMode={setEditMode}
+            createActivity={createActivity}
+            editActivity={editActivity}
+          />
+        )}
       </Grid.Column>
     </Grid>
   );
