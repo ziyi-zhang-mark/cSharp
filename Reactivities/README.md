@@ -168,3 +168,10 @@ DELETE /api/activities/id
 
 Activity Interface in Typescript
 useState & useEffect hooks
+
+# Create API invocation via Axios
+
+Drop the DB table
+$ dotnet ef database drop -p Persistence/ -s API/
+Recreate the DB table
+$ dotnet watch run
